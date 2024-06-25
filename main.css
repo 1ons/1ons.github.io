@@ -1,0 +1,310 @@
+## THE CSS
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.bannerjosko{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(landscape.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cheeto{
+    width: 85%;
+    margin: auto;
+    padding:  25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logotypok{
+    width: 120px;
+    cursor: pointer;
+    
+}
+.cheeto ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.cheeto ul li a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+}
+.cheeto ul li::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #128918;
+    position: absolute;
+    left: 0;
+    bottom: 20;
+    transition: 0.5s;
+}
+.cheeto ul li:hover::after{
+    width: 100%
+}
+.kontent{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #ffff;
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 2s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+        animation-delay: 1s;
+    }
+}
+.anime{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 2s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+        animation-delay: 1s;
+    }
+}
+.banim{
+     background-color: transparent;
+     border: 2px solid #ffff;
+     border-radius: 25px;
+     padding: 10px 20px;
+     border-radius: 15px;
+     cursor: pointer; 
+     animation: pulse 1s infinite alternate;
+     text-align: center;
+     text-decoration: none;
+     color: #ffff;
+     transform: pulse 1s infinite alternate;
+     bottom: 100vh;
+}
+.banim-div{
+    padding-top: 40px;
+}
+@keyframes pulse{
+    100%{
+        opacity: 1;
+    }
+
+    0%{
+        opacity: 0;
+    }
+}
+.bannerjoskoa{
+    margin-top:200px;
+    margin-left: 2000px;
+    margin-bottom: 20000px;
+    margin-top: 200000px;
+    margin-right: 20000000;
+    left: 10vh;
+    right: 100vh;
+    bottom: 1000vh;
+    top: 10000vh;
+    text-align: center;
+    text-decoration: none;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+# The 2nd one
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.bannerjosko{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(landscape.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cheeto{
+    width: 85%;
+    margin: auto;
+    padding:  25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logotypok{
+    width: 120px;
+    cursor: pointer;
+    
+}
+.cheeto ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.cheeto ul li a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+}
+.cheeto ul li::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #128918;
+    position: absolute;
+    left: 0;
+    bottom: 20;
+    transition: 0.5s;
+}
+.cheeto ul li:hover::after{
+    width: 100%
+}
+.kontent{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #ffff;
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 7s linear forwards;
+    height: 100px;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+        animation-delay: 1s;
+    }
+}
+.anime{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+        animation-delay: 1s;
+    }
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #ffff;
+    background: transparent;
+    color: #ffff;
+}
+.banim{
+     background-color: transparent;
+     border: 2px solid #ffff;
+     border-radius: 25px;
+     padding: 10px 20px;
+     border-radius: 15px;
+     cursor: pointer; 
+     animation: pulse 1s infinite alternate;
+     text-align: center;
+     bottom: 10%;
+}
+@keyframes pulse {
+    100%{
+        opacity: 1;
+    }
+    
+    0%{
+        opacity: 0;
+    }
+}
+.product1{
+    width: 250px;
+    top: 50%; 
+    margin-left: 25vh;
+    margin-top: 20vh;
+    border: 5px solid #ffff;
+}
+.product2{
+    width: 250px;
+    top: 50%; 
+    margin-left: 27vh;
+    margin-top: 20vh;
+    border: 5px solid #ffff;
+}
+.product3{
+    width: 250px;
+    top: 50%; 
+    margin-left:20vh;
+    margin-top: 20vh;
+    border: 5px solid #ffff;
+}
+.cost{
+    color: #ffff;
+    top: 60%;
+    margin-left: -60%;
+    text-align: center;
+    margin-top: 2vh;
+}
+.cost2{
+    color: #ffff;
+    top: 60%;
+    margin-left: 1%;
+    text-align: center;
+    margin-top: -3vh;
+}
+.cost3{
+    color: #ffff;
+    top: 60%;
+    margin-left: 55%;
+    text-align: center;
+    margin-top: -3vh;
+}
+.define1{
+    color: #ffff;
+    top: 50%;
+    margin-left: 55%;
+    text-align: center;
+    margin-top: 0vh;
+    cursor: pointer;
+
+}
+.define2{
+    color: #ffff;
+    top: 50%;
+    margin-left: 1%;
+    text-align: center;
+    margin-top: -2vh;
+    cursor: pointer;
+}
+.define3{
+    color: #ffff;
+    top: 50%;
+    margin-left: -60%;
+    text-align: center;
+    margin-top: -2vh;
+    cursor: pointer;
+
+}
